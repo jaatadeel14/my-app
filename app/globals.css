@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -26,4 +26,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
    text-align: center; 
   
-}
+} */
+
+
+
+  /* h2{
+    color:red;
+  } */
+
+
+
+
+  .main{
+    color:aquamarine;
+  }
