@@ -11,6 +11,7 @@ async function getPosts() {
 const Post = async () => {
     let posts = await getPosts();
     // console.log(posts)
+    //Done with the passage of time.
     return (
         <>
             <h2>Posts | fetch the Data with the API in server side Components</h2>
