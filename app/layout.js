@@ -27,6 +27,10 @@ export default function RootLayout({ children }) {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap" rel="stylesheet"></link>
       </head> */}
+      {/* <head>
+        <script src="/feature.js" async/>
+      </head> */}
+      
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
