@@ -30,6 +30,10 @@ export default function RootLayout({ children }) {
       {/* <head>
         <script src="/feature.js" async/>
       </head> */}
+      <head>
+        <link rel="stylesheet" href="/style.css"/>
+        <script src="/script.js" async/>
+      </head>
       
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
