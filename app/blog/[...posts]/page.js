@@ -13,3 +13,10 @@ const Posts = ({ params }) => {
 };
 
 export default Posts;
+
+
+
+
+
+
+
