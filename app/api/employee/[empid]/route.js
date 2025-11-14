@@ -43,3 +43,31 @@ export const GET = async (req, context) => {
 
     return NextResponse.json(result);
 };
+
+
+// export const DELETE = (req, value) => {
+//     let employeeId = value.params.empid;
+//     if (employeeId) {
+//         return NextResponse.json({ result: "Employee Info Dleted Successfully" }, { status: 200 })
+//     }
+
+//     else {
+//         return NextResponse.json({ result: "Employee not found" }, { status: 404 })
+//     }
+// }
+
+
+
+
+export const DELETE = async (req, { params }) => {
+    const employeeId = (await params).empid;
+
+    if (employeeId) {
+        return NextResponse.json(
+            { result: "Employee Info Deleted Successfully" },
+            { status: 200 }
+        );
+    }
+
+    return NextResponse.json({ result: "Employee Not Found" }, { status: 404 });
+};
